@@ -239,7 +239,7 @@ h2 {
   position: relative;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 975px) {
   .card-container {
     flex-direction: column;
     align-items: center;
@@ -274,8 +274,8 @@ h2 {
 
 .feature-list {
   text-align: left;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .feature-row {
