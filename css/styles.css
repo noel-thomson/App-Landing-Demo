@@ -173,6 +173,7 @@ p {
   text-align: center;
   background: #93ABDF;
   color: #fff;
+  height: 80vh;
 }
 
 .carousel-inner {
@@ -247,6 +248,10 @@ h2 {
   .card {
     min-width: 70%;
     margin-bottom: 10%;
+  }
+
+  .card-2 {
+    margin-bottom: 0%;
   }
 }
 
