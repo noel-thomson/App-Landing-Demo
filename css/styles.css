@@ -230,6 +230,14 @@ h2 {
   justify-content: space-around;
 }
 
+.card {
+  min-height: 400px;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+  border-radius: 10px;
+  position: relative;
+}
+
 @media (max-width: 950px) {
   .card-container {
     flex-direction: column;
@@ -238,22 +246,15 @@ h2 {
 
   .card {
     min-width: 70%;
+    margin-bottom: 10%;
   }
 }
 
 @media (max-width: 540px) {
   .card {
     min-height: 475px !important;
+    min-width: 300px;
   }
-}
-
-.card {
-  margin-bottom: 10%;
-  min-height: 400px;
-  width: 40%;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
-  border-radius: 10px;
-  position: relative;
 }
 
 .card-body {
