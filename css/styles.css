@@ -1,3 +1,5 @@
+/* Global Styling */
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -32,14 +34,13 @@ body {
   background: linear-gradient(90deg, #C074B2, #8AB5E8);
   color: #fff;
   position: relative;
-  /* height: 80vh; */
 }
 
 .container-fluid {
   padding: 3% 15% 7%;
 }
 
-/* Navbar */
+/* Navbar Styling */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -68,7 +69,7 @@ body {
   font-weight: 400;
 }
 
-/* Hero */
+/* Hero Styling */
 
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -136,7 +137,7 @@ h1 {
   }
 }
 
-/* Features */
+/* Features Section */
 
 #features {
   background: #fff;
@@ -167,13 +168,12 @@ p {
   color: #7c7c7c;
 }
 
-/* Testimonials */
+/* Testimonials Section */
 
 #testimonials {
   text-align: center;
   background: #93ABDF;
   color: #fff;
-  height: 80vh;
 }
 
 .carousel-inner {
@@ -183,12 +183,12 @@ p {
 h2 {
   font-family: "Montserrat" sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
    h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
    } 
 }
 
@@ -209,7 +209,31 @@ h2 {
   margin: 20px 20px 50px;
 }
 
-/* Pricing */
+@media (max-height: 700px) {
+  .testimonial-img {
+    display: none;
+  }
+  em {
+    display: none;
+  }
+}
+
+@media (max-height: 550px) {
+  #testimonials {
+    height: 100vh;
+  }
+  .testimonial-text {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-height: 350px) {
+  .testimonial-text {
+    font-size: 1.75rem;
+  }
+}
+
+/* Pricing Section */
 
 #pricing {
   text-align: center;
@@ -294,7 +318,7 @@ h2 {
   margin-left: 8px;
 }
 
-/*  Button Styling */
+/*  Pricing Button Styling */
 
 .card-body-btn {
   position: absolute;
@@ -357,9 +381,7 @@ h5 {
   font-weight: 900;
 }
 
-/* .pricing-btn {
-  width: 60%;
-} */
+/* Call to Action Section */
 
 #cta {
   text-align: center;
@@ -374,6 +396,8 @@ h5 {
   font-weight: 900;
   line-height: 1.5;
 }
+
+/* Footer */
 
 #footer {
   text-align: center;
