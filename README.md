@@ -1,2 +1,2 @@
-# App-Landing-Demo
-https://noel-thomson.github.io/app-landing-demo
+# product-landing-page
+https://noel-thomson.github.io/product-landing-page
